@@ -2,8 +2,10 @@
 
 This project is a data analysis of the usage patterns and trends of the Bellabeat fitness tracker app. 
 
+#
 
-This case study will be following six steps of the data analysis process: 
+This case study will be following six steps of the data analysis process:
+
 
 
 ### [Ask](#1-ask)
