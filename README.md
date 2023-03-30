@@ -54,6 +54,31 @@ This analysis will be based on these questions:
 # Prepare
 
 ### Data Source: https://www.kaggle.com/datasets/arashnic/fitbit
+https://zenodo.org/record/53894#.ZCTGWezMJ-W
+
+
+
+
+Concerns:
+
+
+
+
+License:
+CC0: Public Domain
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
