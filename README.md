@@ -104,13 +104,31 @@ daily_steps <- read.csv("dailySteps_merged.csv")
 ```
 head(daily_activity)
 ```
+![Screen Shot 2023-04-03 at 3 25 55 PM](https://user-images.githubusercontent.com/66655353/229650637-07755b81-af4a-45d3-93a4-369ab533b8e6.png)
+
+
+```
+glimpse(daily_activity)
+```
+![Screen Shot 2023-04-03 at 4 03 50 PM](https://user-images.githubusercontent.com/66655353/229650698-5f871562-b66e-4bce-885b-db7058aa0ba6.png)
 
 
 
 
 
+Next I will check the number of participants in each data sets by using the ```n_distinct()``` function.
+
+```
+n_distinct(activity$Id)
+n_distinct(calories$Id)
+n_distinct(intensities$Id)
+n_distinct(sleep$Id)
+n_distinct(weight$Id)
+```
 
 
+
+There is 33 participants in the activity, calories and intensities data sets, 24 in the sleep and only 8 in the weight data set.
 
 
 
