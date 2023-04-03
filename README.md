@@ -91,7 +91,7 @@ daily_steps <- read.csv("dailySteps_merged.csv")
 
  
  
-I need to make sure that all data was imported accurately, which can be by using the head() and glimpse() functions.
+I need to make sure that all data was imported accurately, which can be done by using the head() and glimpse() functions.
 
 ```
 head(daily_activity)
@@ -108,7 +108,7 @@ glimpse(daily_activity)
 
 
 
-Next, I will check the number of participants in each data sets by using the ```n_distinct()``` function.
+Next, I will check the number of participants in each data set by using the ```n_distinct()``` function.
 
 ```
 n_distinct(daily_activity$Id)
