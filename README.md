@@ -73,19 +73,9 @@ This analysis will be conducted using R Studio, which offers a wide range of pac
 
 # Process
 
-Loading packages:
-
-```
-library(tidyverse)
-library(lubridate)
-library(dplyr)
-library(ggplot2)
-library(tidyr)
-```
 
 
-
-I will import the files into R Studio and create data frames with concise names:
+To begin, I will import the files into R Studio and create data frames with concise names:
 
 
 ```
@@ -99,7 +89,9 @@ daily_intensities <- read.csv("dailyIntensities_merged.csv")
 daily_steps <- read.csv("dailySteps_merged.csv")
 ```
 
- I need to make sure that all data was imported accurately, which can be by using the head() and glimpse() functions.
+ 
+ 
+I need to make sure that all data was imported accurately, which can be by using the head() and glimpse() functions.
 
 ```
 head(daily_activity)
@@ -116,19 +108,18 @@ glimpse(daily_activity)
 
 
 
-Next I will check the number of participants in each data sets by using the ```n_distinct()``` function.
+Next, I will check the number of participants in each data sets by using the ```n_distinct()``` function.
 
 ```
-n_distinct(activity$Id)
-n_distinct(calories$Id)
-n_distinct(intensities$Id)
-n_distinct(sleep$Id)
-n_distinct(weight$Id)
+n_distinct(daily_activity$Id)
+n_distinct(daily_calories$Id)
+n_distinct(daily_intensities$Id)
+n_distinct(daily_sleep$Id)
+n_distinct(weight_info$Id)
 ```
 
 
-
-There is 33 participants in the activity, calories and intensities data sets, 24 in the sleep and only 8 in the weight data set.
+I find that there are 33 participants in the daily_activity, daily_calories and daily_intensities data sets, 24 in the daily_sleep and only 8 in the weight_info data set.
 
 
 
