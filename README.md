@@ -119,8 +119,7 @@ n_distinct(weight_info$Id)
 ```
 
 
-I find that there are 33 participants in the daily_activity, daily_calories and daily_intensities data sets, 24 in the daily_sleep and only 8 in the weight_info data set.
-
+I find that there are 33 participants in the daily_activity, daily_calories and daily_intensities data sets, 24 in the daily_sleep and only 8 in the weight_info data sets. The difference in the weights_info data set can cause the data to not be sufficient.
 
 
 
