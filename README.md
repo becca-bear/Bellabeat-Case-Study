@@ -181,6 +181,31 @@ Based on this summary, some interesting findings were uncovered:
   - Majority of particpants are lightly active with the average being 192.8 minutes per day.
   - Participants slept an average of 7 hours.
  
+ 
+ 
+
+Let's see if there is a relationship between the total calories burned vs the total steps.
+
+
+```
+ggplot(data=daily_activity, aes(x=TotalSteps, y=Calories)) + 
+  geom_point() + geom_smooth() + labs(title="Total Steps vs. Calories")
+  ```
+
+
+
+
+
+
+An obvious correlation shown, the more steps we take the more calories we burn:
+
+
+
+![Screen Shot 2023-04-04 at 1 30 59 PM](https://user-images.githubusercontent.com/66655353/229871629-f8b92a0e-7f24-4578-b436-439438519765.png)
+
+
+
+
 
 
 
