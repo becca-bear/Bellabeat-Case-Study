@@ -184,7 +184,7 @@ Based on this summary, some interesting findings were uncovered:
  
  
 
-Let's see if there is a relationship between the total calories burned vs the total steps.
+Let's see if there is a relationship between the total Calories burned vs the Total Steps:
 
 
 ```
@@ -194,17 +194,66 @@ ggplot(data=daily_activity, aes(x=TotalSteps, y=Calories)) +
 
 
 
-
-
-
-An obvious correlation shown, the more steps we take the more calories we burn:
-
-
-
 ![Screen Shot 2023-04-04 at 1 30 59 PM](https://user-images.githubusercontent.com/66655353/229871629-f8b92a0e-7f24-4578-b436-439438519765.png)
 
+An obvious correlation shown, the more steps we take the more calories we burn.
 
 
+
+
+
+
+
+Let's see the relationship between Very Active Minutes and Calories:
+
+```
+ggplot(data=daily_activity, aes(x=VeryActiveMinutes, y=Calories)) + 
+  geom_point() + geom_smooth() + labs(title="Very Active Minutes vs. Calories")
+ ```
+
+
+
+
+
+![Screen Shot 2023-04-04 at 2 09 24 PM](https://user-images.githubusercontent.com/66655353/229880611-1c62c49c-3559-4864-88b6-bca99c889cd7.png)
+
+
+As expected we see another correlation between Very Active Minutes vs Calories. Very active people will burn more calories.
+
+
+
+
+```
+ggplot(data=daily_sleep, aes(x=TotalMinutesAsleep, y=TotalTimeInBed)) + 
+  geom_point()+ labs(title="Total Minutes Asleep vs. Total Time in Bed")
+ ```
+
+![Screen Shot 2023-04-04 at 5 35 25 PM](https://user-images.githubusercontent.com/66655353/229928092-19c4e533-4142-4853-b4ac-0e69034d6097.png)
+
+
+Given the relationship between Total Minutes Asleep and Total Time in Bed, participants may benefit from considering strategies such as developing consistent sleep routines and creating a favorable sleep environment, and exploring the use of sleep notifications.
+
+
+
+Next I am going to merge two tables that contain the Id and Date column.
+
+```
+merged_data <- merge(daily_sleep, daily_activity, by=c('Id', 'Date'))
+head(merged_data)
+ ```
+
+![Screen Shot 2023-04-04 at 7 26 38 PM](https://user-images.githubusercontent.com/66655353/229944154-5a852b7e-8823-46c3-af5a-7300199bea02.png)
+
+
+
+
+```
+ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=SedentaryMinutes)) + 
+  geom_point(color='blue') + geom_smooth() +
+  labs(title="Minutes Asleep vs. Sedentary Minutes")
+ ```
+
+![Screen Shot 2023-04-04 at 7 33 42 PM](https://user-images.githubusercontent.com/66655353/229944971-b8e313a0-562a-4607-ab1d-250a55a3bca6.png)
 
 
 
