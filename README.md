@@ -127,5 +127,70 @@ I find that there are 33 participants in the daily_activity, daily_calories and 
 
 
 # Analyze
+
+
+Let's check the min, max, mean, median and any outliers:
+
+
+
+```
+daily_activity %>%  
+  select(TotalSteps,
+         TotalDistance,
+         SedentaryMinutes, Calories) %>%
+  summary()
+
+
+daily_activity %>%
+  select(VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes) %>%
+  summary()
+
+
+daily_calories %>%
+  select(Calories) %>%
+  summary()
+
+daily_sleep %>%
+  select(TotalSleepRecords, TotalMinutesAsleep, TotalTimeInBed) %>%
+  summary()
+  
+  
+  weight_info %>%
+  select(WeightKg, BMI) %>%
+  summary() 
+  ```
+  
+  
+  
+![Screen Shot 2023-04-04 at 11 55 22 AM](https://user-images.githubusercontent.com/66655353/229848992-8fe4c016-f988-4457-bcd7-75c0e82ac7e2.png)
+
+![Screen Shot 2023-04-04 at 11 51 40 AM](https://user-images.githubusercontent.com/66655353/229848170-52112bcd-8d37-4db7-990a-f5bd95b42e35.png)
+
+![Screen Shot 2023-04-04 at 11 56 57 AM](https://user-images.githubusercontent.com/66655353/229849369-0ead3cfe-f754-47eb-bdb8-37d65c2821de.png)
+
+![Screen Shot 2023-04-04 at 11 57 39 AM](https://user-images.githubusercontent.com/66655353/229849537-7457ebf9-1a67-4b95-812f-f7799df73c19.png)
+
+![Screen Shot 2023-04-04 at 11 58 11 AM](https://user-images.githubusercontent.com/66655353/229850134-39702577-8ace-4e97-b1aa-8590fb258be3.png)
+
+
+
+Based on this summary, some interesting findings were uncovered:
+
+  - Average of 7638 steps per day, which is below the generally recommended 10,000.
+  - The average sedentary time among participants was 991 minutes or 16 hours, indicating a need for reduction.
+  - Majority of particpants are lightly active with the average being 192.8 minutes per day.
+  - Participants slept an average of 7 hours.
+ 
+
+
+
+
+
+
+
+
+
+
+
 # Share
 # Act
