@@ -67,7 +67,7 @@ Link: https://zenodo.org/record/53894#.ZCr07-zMJ-W
 
 This analysis will be conducted using R Studio, which offers a wide range of packages and data visualization tools for effectively exploring the data.
 
-
+Data was cleaned in Google Sheets prior to starting this analysis. 
 
 
 
@@ -256,9 +256,9 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=SedentaryMinutes)) +
 ![Screen Shot 2023-04-04 at 7 33 42 PM](https://user-images.githubusercontent.com/66655353/229944971-b8e313a0-562a-4607-ab1d-250a55a3bca6.png)
 
 
+- There appears to be a negative relationship between the Total Minutes Asleep and the Sedentary Minutes.
 
-
-
+- Bellabeat app can suggest reducing sedentary time to users who aim to enhance their sleep quality.
 
 
 
