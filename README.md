@@ -266,9 +266,7 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=SedentaryMinutes)) +
 # Share
 
 
-This visual was created using Python.
-
-
+The following visuals were created using Python.
 
 
 
@@ -276,6 +274,11 @@ This visual was created using Python.
 
 
 
+The pie chart displays the proportion of active minutes in four categories, namely very active, fairly active, lightly active, and sedentary. It is evident from the chart that the majority of users spent 81.3% of their daily activity being sedentary, whereas only 1.74% of their time was spent being very active.
+
+![corrmax_bellbeat](https://user-images.githubusercontent.com/66655353/230435476-61bd5585-1c5f-429b-ac78-3da6cd76328b.png)
+
+This correlation matrix displays all of the categories from the daily_activity dataset. Correlation coefficients measure the strength and direction of the linear relationship between two variables, with values ranging from -1 (negative correlation) to 1 (positive correlation), with 0 indicating no correlation. An interesting find here is the Logged Activities Distance has a negative relationship with all of the other variables, meaning the numbers of times users logged in their activity did not make a difference on how active they are.
 
 
 
