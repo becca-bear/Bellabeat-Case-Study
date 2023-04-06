@@ -263,8 +263,24 @@ ggplot(data=merged_data, aes(x=TotalMinutesAsleep, y=SedentaryMinutes)) +
 
 
 
-
-
-
 # Share
+
+
+This visual was created using Python.
+
+
+
+
+
+![dailyactiveminutes](https://user-images.githubusercontent.com/66655353/230202695-0fee8de9-d943-4a9f-94ee-e6befebc054f.png)
+
+
+
+
+
+
+
+
+
+
 # Act
