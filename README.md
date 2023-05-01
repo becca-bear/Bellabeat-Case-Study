@@ -289,12 +289,10 @@ This correlation matrix displays all of the categories from the daily_activity d
 
 Suggestions for the Bellabeat app
 
-- Average total steps per day are 7638 which a little bit less for having health benefits for according to the CDC research. They found that taking 8,000 steps per day was associated with a 51% lower risk for all-cause mortality (or death from all causes). Taking 12,000 steps per day was associated with a 65% lower risk compared with taking 4,000 steps. Bellabeat can encourage people to take at least 8 000 explaining the benefits for their health.
+- The average total number of steps per day is 7638, which is slightly lower than what the CDC recommends for optimal health benefits. The CDC conducted research and found that taking at least 8000 steps per day can lower the risk of all-cause mortality by 51%, while taking 12000 steps per day can lower the risk by 65% compared to taking 4000 steps. Bellabeat can encourage users to take at least 8000 steps per day and inform them of the health benefits.
 
-- If users want to lose weight, it’s probably a good idea to control daily calorie consumption. Bellabeat can suggest some ideas for low-calorie lunch and dinner.
+- For users looking to lose weight, controlling daily calorie intake is advisable, and Bellabeat can provide suggestions for low-calorie lunch and dinner options.
 
-- If users want to improve their sleep, Bellabeat should consider using app notifications to go to bed.
+- To improve sleep, Bellabeat could use app notifications to remind users to go to bed.
 
-- Most activity happens between 5 pm and 7 pm - I suppose, that people go to a gym or for a walk after finishing work. Bellabeat can use this time to remind and motivate users to go for a run or walk.
-
-- As an idea: if users want to improve their sleep, the Bellabeat app can recommend reducing sedentary time.
+- Most physical activity tends to occur between 5 pm and 7 pm, likely because people go to the gym or for a walk after work. Bellabeat can leverage this time frame to motivate and remind users to go for a walk or run.
