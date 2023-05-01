@@ -284,6 +284,17 @@ This correlation matrix displays all of the categories from the daily_activity d
 
 
 
-
-
 # Act
+
+
+Suggestions for the Bellabeat app
+
+- Average total steps per day are 7638 which a little bit less for having health benefits for according to the CDC research. They found that taking 8,000 steps per day was associated with a 51% lower risk for all-cause mortality (or death from all causes). Taking 12,000 steps per day was associated with a 65% lower risk compared with taking 4,000 steps. Bellabeat can encourage people to take at least 8 000 explaining the benefits for their health.
+
+- If users want to lose weight, it’s probably a good idea to control daily calorie consumption. Bellabeat can suggest some ideas for low-calorie lunch and dinner.
+
+- If users want to improve their sleep, Bellabeat should consider using app notifications to go to bed.
+
+- Most activity happens between 5 pm and 7 pm - I suppose, that people go to a gym or for a walk after finishing work. Bellabeat can use this time to remind and motivate users to go for a run or walk.
+
+- As an idea: if users want to improve their sleep, the Bellabeat app can recommend reducing sedentary time.
